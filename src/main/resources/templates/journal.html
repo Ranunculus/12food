@@ -35,7 +35,7 @@
                             <small class="invalid-feedback" th:if="${#fields.hasErrors('type')}" th:errors="*{type}"></small>
                         </div>
                         <div class="col">
-                            <input class="form-control" th:type="date" th:field="*{date}" th:classappend="${#fields.hasErrors('date') ? 'is-invalid' : ''}"/>
+                            <input class="form-control" th:type="datetime-local" th:field="*{date}" th:classappend="${#fields.hasErrors('date') ? 'is-invalid' : ''}"/>
                             <small class="invalid-feedback" th:if="${#fields.hasErrors('date')}" th:errors="*{date}"></small>
                         </div>
                         <div class="col">

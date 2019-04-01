@@ -33,7 +33,7 @@ public class JournalRequest {
     private NutritionType type;
 
     @NotNull
-    @DateTimeFormat(pattern = "yyyy-MM-dd") // TODO: 5/11/18 chenge to pattern with time 
+    @DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm")
     @Past
     private Date date;
 
