@@ -2,9 +2,7 @@ package com.twelveweeks.food.controller.requests;
 
 import com.twelveweeks.food.domain.enums.NutritionType;
 import com.twelveweeks.food.domain.enums.Unit;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.validation.constraints.Min;
@@ -13,10 +11,7 @@ import javax.validation.constraints.Past;
 import java.math.BigDecimal;
 import java.util.Date;
 
-@Setter
-@Getter
-
-@ToString
+@Data
 public class JournalRequest {
 
     @NotNull

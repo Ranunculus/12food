@@ -2,7 +2,7 @@ package com.twelveweeks.food.service;
 
 import com.twelveweeks.food.controller.requests.JournalRequest;
 import com.twelveweeks.food.domain.JournalEntry;
-import com.twelveweeks.food.domain.repository.JournalRepository;
+import com.twelveweeks.food.repository.JournalRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

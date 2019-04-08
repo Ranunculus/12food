@@ -1,4 +1,4 @@
-package com.twelveweeks.food.domain.repository;
+package com.twelveweeks.food.repository;
 
 import com.twelveweeks.food.domain.JournalEntry;
 import org.springframework.data.repository.CrudRepository;
